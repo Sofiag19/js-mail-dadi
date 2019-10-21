@@ -1,10 +1,10 @@
 // Gioco dei dadi, chi fa di più vince;
 
 // lancio gicatore
-var dadoUtente = Math.floor((Math.random() * 6)+1);
+var dadoUtente = Math.floor((Math.random() * 6)+1) + Math.floor((Math.random() * 6)+1);
 
 // lancio pc
-var dadoPc = Math.floor((Math.random() * 6)+1);
+var dadoPc = Math.floor((Math.random() * 6)+1) + Math.floor((Math.random() * 6)+1);
 
 // output
 var mess = "Il tuo punteggio è " + dadoUtente + " mentre il pc ha totalizzato " + dadoPc;
