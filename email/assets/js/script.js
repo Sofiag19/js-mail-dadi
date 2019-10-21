@@ -3,6 +3,7 @@
 // stampa un messaggio appropriato;
 
 var emailReq, listaEmail, invitato;
+var text = document.getElementById("messaggio");
 
 emailReq = prompt("Inserisci la tua e-mail");
 
@@ -15,7 +16,7 @@ for(var i = 0; i < listaEmail.length; i++){
 }
 
 if (invitato == true) {
-    document.getElementById("messaggio").innerHTML = "benvenuto";
+    text.innerHTML = "Benvenuto!";
 } else {
-    document.getElementById("messaggio").innerHTML = "non sei benvenuto";
+    text.innerHTML = "Non sei il benvenuto!";
 }
