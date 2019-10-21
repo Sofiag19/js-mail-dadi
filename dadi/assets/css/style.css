@@ -1,5 +1,27 @@
 body {
-  background-image: url("https://casinotop10.it/assets/Uploads/_resampled/ResizedImageWzY1MCwzNzJd-gioco-dei-dadi.jpg?t=1464255575");
+  background-image: url("https://www.setaswall.com/wp-content/uploads/2017/03/3d-Cube-Dice-Wallpaper.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.contenitore {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  width: 300px;
+  height: 150px;
+  border: 5px double yellow;
+  text-align: center;
+}
+
+#scritta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(38, 43, 116);
 }
