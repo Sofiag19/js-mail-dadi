@@ -24,30 +24,49 @@ if (dadoUtente > dadoPc) {
   console.log("Avete totalizzato lo stesso punteggio! Riprova se vuoi battere il pc.");
 }
 
-if (dadoUtente == 1) {
-  puntegUt.innerHTML = "<img src='assets/img/uno.jpg' alt='uno'>";
-}else if (dadoUtente == 2) {
-  puntegUt.innerHTML = "<img src='assets/img/due.jpg' alt='due'>";
-}else if (dadoUtente == 3) {
-  puntegUt.innerHTML = "<img src='assets/img/tre.jpg' alt='tre'>";
-}else if (dadoUtente == 4) {
-  puntegUt.innerHTML = "<img src='assets/img/quattro.jpg' alt='quattro'>";
-}else if (dadoUtente == 5) {
-  puntegUt.innerHTML = "<img src='assets/img/cinque.jpg' alt='cinque'>";
-}else if (dadoUtente == 6) {
-  puntegUt.innerHTML = "<img src='assets/img/sei.jpg' alt='sei'>";
+var valDadoUtente = [1,2,3,4,5,6];
+var valDadoPc = [1,2,3,4,5,6];
+var imgDado = ["<img src='assets/img/uno.jpg' alt='uno'>","<img src='assets/img/due.jpg' alt='due'>","<img src='assets/img/tre.jpg' alt='tre'>","<img src='assets/img/quattro.jpg' alt='quattro'>","<img src='assets/img/cinque.jpg' alt='cinque'>","<img src='assets/img/sei.jpg' alt='sei'>"]
+
+for (var i = 0; i < valDadoUtente.length; i++) {
+  if (dadoUtente === valDadoUtente[i] ) {
+    puntegUt.innerHTML = imgDado[i];
+  }
 }
 
-if (dadoPc == 1) {
-  puntegPc.innerHTML = "<img src='assets/img/uno.jpg' alt='uno'>";
-}else if (dadoPc == 2) {
-  puntegPc.innerHTML = "<img src='assets/img/due.jpg' alt='due'>";
-}else if (dadoPc == 3) {
-  puntegPc.innerHTML = "<img src='assets/img/tre.jpg' alt='tre'>";
-}else if (dadoPc == 4) {
-  puntegPc.innerHTML = "<img src='assets/img/quattro.jpg' alt='quattro'>";
-}else if (dadoPc == 5) {
-  puntegPc.innerHTML = "<img src='assets/img/cinque.jpg' alt='cinque'>";
-}else if (dadoPc == 6) {
-  puntegPc.innerHTML = "<img src='assets/img/sei.jpg' alt='sei'>";
+for (var i = 0; i < valDadoPc.length; i++) {
+  if (dadoPc === valDadoPc[i] ) {
+    puntegPc.innerHTML = imgDado[i];
+  }
 }
+
+
+// if (dadoUtente == 1) {
+//   puntegUt.innerHTML = "<img src='assets/img/uno.jpg' alt='uno'>";
+// }else if (dadoUtente == 2) {
+//   puntegUt.innerHTML = "<img src='assets/img/due.jpg' alt='due'>";
+// }else if (dadoUtente == 3) {
+//   puntegUt.innerHTML = "<img src='assets/img/tre.jpg' alt='tre'>";
+// }else if (dadoUtente == 4) {
+//   puntegUt.innerHTML = "<img src='assets/img/quattro.jpg' alt='quattro'>";
+// }else if (dadoUtente == 5) {
+//   puntegUt.innerHTML = "<img src='assets/img/cinque.jpg' alt='cinque'>";
+// }else if (dadoUtente == 6) {
+//   puntegUt.innerHTML = "<img src='assets/img/sei.jpg' alt='sei'>";
+// }
+//
+//
+//
+// if (dadoPc == 1) {
+//   puntegPc.innerHTML = "<img src='assets/img/uno.jpg' alt='uno'>";
+// }else if (dadoPc == 2) {
+//   puntegPc.innerHTML = "<img src='assets/img/due.jpg' alt='due'>";
+// }else if (dadoPc == 3) {
+//   puntegPc.innerHTML = "<img src='assets/img/tre.jpg' alt='tre'>";
+// }else if (dadoPc == 4) {
+//   puntegPc.innerHTML = "<img src='assets/img/quattro.jpg' alt='quattro'>";
+// }else if (dadoPc == 5) {
+//   puntegPc.innerHTML = "<img src='assets/img/cinque.jpg' alt='cinque'>";
+// }else if (dadoPc == 6) {
+//   puntegPc.innerHTML = "<img src='assets/img/sei.jpg' alt='sei'>";
+// }
