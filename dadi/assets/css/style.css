@@ -26,6 +26,18 @@ body {
   color: rgb(38, 43, 116);
 }
 
+#refresh {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 150px;
+  height: 40px;
+  background-color: yellow;
+  font-weight: bold;
+  color: rgb(38, 43, 116);
+}
+
 #percorsi {
   position: absolute;
   bottom: 10%;
