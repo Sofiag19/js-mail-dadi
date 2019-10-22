@@ -14,13 +14,13 @@ var puntegPc = document.getElementById('animpc');
 
 // comparazione
 if (dadoUtente > dadoPc) {
-  scrittaId.innerHTML = mess + " : Complimenti! Hai vinto!"
+  scrittaId.innerHTML = mess + " : Complimenti! HAI VINTO!"
   console.log(mess + " : Complimenti! Hai vinto!");
 }else if (dadoUtente < dadoPc) {
-  scrittaId.innerHTML = mess + " : Mi dispiace! Hai perso!";
+  scrittaId.innerHTML = mess + " : Mi dispiace! HAI PERSO!";
   console.log(mess + " : Mi dispiace! Hai perso!");
 }else {
-  scrittaId.innerHTML = "Avete totalizzato lo stesso punteggio! Aggiorna per battere il pc.";
+  scrittaId.innerHTML = "Avete totalizzato lo stesso punteggio! Clicca su GIOCA per battere il pc.";
   console.log("Avete totalizzato lo stesso punteggio! Riprova se vuoi battere il pc.");
 }
 
