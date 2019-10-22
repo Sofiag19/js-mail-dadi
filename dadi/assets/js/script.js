@@ -34,6 +34,8 @@ for (var i = 0; i < valDadoUtente.length; i++) {
   }
 }
 
+// imgDado[dadoUtente -1]
+
 for (var i = 0; i < valDadoPc.length; i++) {
   if (dadoPc === valDadoPc[i] ) {
     puntegPc.innerHTML = imgDado[i];
