@@ -1,12 +1,12 @@
 body {
   background-image: url("https://www.setaswall.com/wp-content/uploads/2017/03/3d-Cube-Dice-Wallpaper.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover;
 }
 
 .contenitore {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%,-50%);
   background-color: white;
@@ -26,21 +26,9 @@ body {
   color: rgb(38, 43, 116);
 }
 
-#refresh {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  width: 150px;
-  height: 40px;
-  background-color: yellow;
-  font-weight: bold;
-  color: rgb(38, 43, 116);
-}
-
 #percorsi {
   position: absolute;
-  bottom: 10%;
+  bottom: 25%;
   left: 50%;
   transform: translate(-50%,-50%);
   display: flex;
@@ -52,7 +40,7 @@ body {
 }
 
 #animut {
-  width: 40%;
+  width: 38%;
 }
 
   #animut img {
@@ -79,7 +67,7 @@ body {
     }
 
 #animpc {
-  width: 40%;
+  width: 38%;
   position: relative;
   text-align: right;
 }
@@ -105,4 +93,16 @@ body {
       transform: rotate(0deg);
       right: 100%;
     }
+  }
+
+  #refresh {
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 150px;
+    height: 40px;
+    background-color: yellow;
+    font-weight: bold;
+    color: rgb(38, 43, 116);
   }
