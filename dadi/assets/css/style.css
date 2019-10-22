@@ -25,3 +25,72 @@ body {
   font-weight: bold;
   color: rgb(38, 43, 116);
 }
+
+#percorsi {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+  width: 60%;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+#animut {
+  width: 40%;
+}
+
+  #animut img {
+    position: relative;
+    left : 0;
+    animation: rollright 1s linear;
+    animation-fill-mode: forwards;
+  }
+
+    @keyframes rollright {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      50% {
+        transform: rotate(180deg);
+        left : 50%;
+      }
+
+      100% {
+        transform: rotate(360deg);
+        left : 100%;
+      }
+    }
+
+#animpc {
+  width: 40%;
+  position: relative;
+  text-align: right;
+}
+
+#animpc img {
+  position: relative;
+  right: 0;
+  animation: rolleft 1s linear;
+  animation-fill-mode: forwards;
+}
+
+  @keyframes rolleft {
+    0% {
+      transform: rotate(360deg);
+    }
+
+    50% {
+      transform: rotate(180deg);
+      right : 50%;
+    }
+
+    100% {
+      transform: rotate(0deg);
+      right: 100%;
+    }
+  }
