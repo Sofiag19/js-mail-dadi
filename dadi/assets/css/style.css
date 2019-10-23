@@ -111,6 +111,9 @@ body {
   }
 
   @media all and (max-width:768px) {
+    #scritta {
+      font-size: 15px;
+    }
     #percorsi{
       width: 90%;
     }
