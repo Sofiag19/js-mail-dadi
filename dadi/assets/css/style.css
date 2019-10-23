@@ -13,10 +13,6 @@ body {
 }
 
 .contenitore {
-  /* position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%,-50%); */
   background-color: white;
   width: 300px;
   height: 150px;
@@ -25,13 +21,10 @@ body {
 }
 
 #scritta {
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%); */
   font-size: 20px;
   font-weight: bold;
   color: rgb(38, 43, 116);
+  line-height: 50px;
 }
 
 #gioco {
@@ -44,10 +37,6 @@ body {
 }
 
 #percorsi {
-  /* position: absolute;
-  bottom: 25%;
-  left: 50%;
-  transform: translate(-50%,-50%); */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -114,10 +103,6 @@ body {
   }
 
   #refresh {
-    /* position: absolute;
-    bottom: 12%;
-    left: 50%;
-    transform: translate(-50%,-50%); */
     width: 150px;
     height: 40px;
     background-color: yellow;
