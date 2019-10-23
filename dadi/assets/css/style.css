@@ -41,13 +41,14 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-top: 5px;
-  width: 60%;
+  width: 150%;
+  overflow: hidden;
   height: 40px;
   background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 
 #animut {
-  width: 38%;
+  width: 45%;
 }
 
   #animut img {
@@ -74,7 +75,7 @@ body {
     }
 
 #animpc {
-  width: 38%;
+  width: 45%;
   position: relative;
   text-align: right;
 }
@@ -115,10 +116,10 @@ body {
       font-size: 15px;
     }
     #percorsi{
-      width: 90%;
+      width: 150%;
     }
 
     #animpc, #animut {
-      width: 30%;
+      width: 40%;
     }
   }
