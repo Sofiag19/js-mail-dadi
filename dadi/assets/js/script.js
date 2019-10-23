@@ -30,13 +30,13 @@ var imgDado = ["<img src='assets/img/uno.jpg' alt='uno'>","<img src='assets/img/
 
 for (var i = 0; i < valDadoUtente.length; i++) {
   if (dadoUtente === valDadoUtente[i] ) {
-    puntegUt.innerHTML = imgDado[i];
+    puntegUt.innerHTML = imgDado[dadoUtente -1];
   }
 }
 
-for (var i = 0; i < valDadoPc.length; i++) {
-  if (dadoPc === valDadoPc[i] ) {
-    puntegPc.innerHTML = imgDado[i];
+for (var a = 0; a < valDadoPc.length; a++) {
+  if (dadoPc === valDadoPc[a] ) {
+    puntegPc.innerHTML = imgDado[dadoPc -1];
   }
 }
 
