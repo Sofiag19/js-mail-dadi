@@ -36,9 +36,11 @@ body {
 
 #gioco {
   width: 100%;
+  height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
 }
 
 #percorsi {
@@ -121,4 +123,10 @@ body {
     background-color: yellow;
     font-weight: bold;
     color: rgb(38, 43, 116);
+  }
+
+  @media all and (max-width:768px) {
+    #animpc, #animut {
+      width: 30%;
+    }
   }

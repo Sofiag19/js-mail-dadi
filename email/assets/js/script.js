@@ -18,6 +18,5 @@ for(var i = 0; i < listaEmail.length; i++){
 if (invitato == true) {
     text.innerHTML = "Benvenuto!";
 } else {
-    // text.innerHTML = "Non sei il benvenuto!";
     alert ("Non sei il benvenuto!");
 }
